@@ -82,6 +82,9 @@ export default {
       lang: 'en'
     }
   },
+  server: {
+        port: process.env.PORT || 4002,
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
