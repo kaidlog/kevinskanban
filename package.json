@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "dev": "nuxt"	
     "start": "HOST=0.0.0.0 nuxt start",
     "heroku-postbuild": "npm run build"
   },
