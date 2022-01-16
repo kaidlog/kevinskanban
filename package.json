@@ -1,12 +1,12 @@
 {
-  "name": "Kanban",
+  "name": "kanban",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxt dev",
-    "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@nuxtjs/firebase": "^7.5.0",
@@ -24,6 +24,6 @@
     "prettier": "^2.2.1"
   },
   "engines": {
-    "node": "6.14.1",
+    "node": "6.14.0"
   }
 }
