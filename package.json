@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "HOST=0.0.0.0 bash ./scripts/start.sh",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "nuxt build"
   },
   "dependencies": {
     "@nuxtjs/firebase": "^7.5.0",
