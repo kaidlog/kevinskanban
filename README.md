@@ -1,4 +1,4 @@
-# trello-clone
+# Kanban
 
 ## Build Setup
 
