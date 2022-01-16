@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "HOST=0.0.0.0 bash ./scripts/start.sh",
+    "start": "HOST=0.0.0.0 nuxt start",
     "heroku-postbuild": "nuxt build"
   },
   "dependencies": {
